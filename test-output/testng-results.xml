@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Sessions Suite" duration-ms="20522" started-at="2021-06-18T13:58:37Z" finished-at="2021-06-18T13:58:58Z">
+    <groups>
+    </groups>
+    <test name="OrangeHRM  Test" duration-ms="13591" started-at="2021-06-18T13:58:37Z" finished-at="2021-06-18T13:58:51Z">
+      <class name="testNgsessions.OrangeHRMTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testNgsessions.OrangeHRMTest@271053e1]" name="setUp" is-config="true" duration-ms="11532" started-at="2021-06-18T13:58:37Z" finished-at="2021-06-18T13:58:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.orangehrm.com/orangehrm-30-day-trial/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logoTest()[pri:1, instance:testNgsessions.OrangeHRMTest@271053e1]" name="logoTest" duration-ms="162" started-at="2021-06-18T13:58:49Z" finished-at="2021-06-18T13:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="orangeHRMTitleTest()[pri:2, instance:testNgsessions.OrangeHRMTest@271053e1]" name="orangeHRMTitleTest" duration-ms="8" started-at="2021-06-18T13:58:49Z" finished-at="2021-06-18T13:58:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orangeHRMTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNgsessions.OrangeHRMTest@271053e1]" name="tearDown" is-config="true" duration-ms="1881" started-at="2021-06-18T13:58:49Z" finished-at="2021-06-18T13:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNgsessions.OrangeHRMTest -->
+    </test> <!-- OrangeHRM  Test -->
+    <test name="Amazon Test" duration-ms="14821" started-at="2021-06-18T13:58:37Z" finished-at="2021-06-18T13:58:52Z">
+      <class name="testNgsessions.AmazonTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testNgsessions.AmazonTest@5e3a8624]" name="setUp" is-config="true" duration-ms="8010" started-at="2021-06-18T13:58:37Z" finished-at="2021-06-18T13:58:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="titleTest()[pri:1, instance:testNgsessions.AmazonTest@5e3a8624]" name="titleTest" duration-ms="2088" started-at="2021-06-18T13:58:45Z" finished-at="2021-06-18T13:58:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleTest -->
+        <test-method status="PASS" signature="searchTest()[pri:2, instance:testNgsessions.AmazonTest@5e3a8624]" name="searchTest" duration-ms="3910" started-at="2021-06-18T13:58:47Z" finished-at="2021-06-18T13:58:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNgsessions.AmazonTest@5e3a8624]" name="tearDown" is-config="true" duration-ms="782" started-at="2021-06-18T13:58:51Z" finished-at="2021-06-18T13:58:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNgsessions.AmazonTest -->
+    </test> <!-- Amazon Test -->
+    <test name="OpenCart Login Test" duration-ms="6910" started-at="2021-06-18T13:58:51Z" finished-at="2021-06-18T13:58:58Z">
+      <class name="testNgsessions.CartLoginTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:testNgsessions.CartLoginTest@7085bdee]" name="setUp" is-config="true" duration-ms="2908" started-at="2021-06-18T13:58:51Z" finished-at="2021-06-18T13:58:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.opencart.com/index.php?route=account/login]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testNgsessions.CartLoginTest@7085bdee]" name="loginTest" duration-ms="921" started-at="2021-06-18T13:58:54Z" data-provider="loginTestData" finished-at="2021-06-18T13:58:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testNgsessions.CartLoginTest@7085bdee]" name="loginTest" duration-ms="998" started-at="2021-06-18T13:58:55Z" data-provider="loginTestData" finished-at="2021-06-18T13:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="loginTest(java.lang.String, java.lang.String)[pri:0, instance:testNgsessions.CartLoginTest@7085bdee]" name="loginTest" duration-ms="920" started-at="2021-06-18T13:58:56Z" data-provider="loginTestData" finished-at="2021-06-18T13:58:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testNgsessions.CartLoginTest@7085bdee]" name="tearDown" is-config="true" duration-ms="1152" started-at="2021-06-18T13:58:56Z" finished-at="2021-06-18T13:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testNgsessions.CartLoginTest -->
+    </test> <!-- OpenCart Login Test -->
+  </suite> <!-- TestNG Sessions Suite -->
+</testng-results>

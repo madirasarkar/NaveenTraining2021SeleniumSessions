@@ -1,0 +1,32 @@
+case 1 : quit
+
+		WebDriver driver = new ChromeDriver();// 1.Launch the browser
+        ChromeDriver: chrome on WINDOWS (c1a886c7cf99cb5518b080554570fd9f)
+		driver.get("http://google.com");// 2.launch URL
+		ChromeDriver: chrome on WINDOWS (c1a886c7cf99cb5518b080554570fd9f)
+		String title = driver.getTitle();// 3.get the title of the page
+		ChromeDriver: chrome on WINDOWS (c1a886c7cf99cb5518b080554570fd9f)
+		System.out.println(title);
+		driver.quit();
+		ChromeDriver: chrome on WINDOWS (null)
+		
+		System.out.println(driver.getTitle());
+		ChromeDriver: chrome on WINDOWS (null)
+		org.openqa.selenium.NoSuchSessionException: Session ID is null. 
+		                       Using WebDriver after calling quit()?
+		                       
+case 2: close
+        WebDriver driver = new ChromeDriver();// 1.Launch the browser
+        ChromeDriver: chrome on WINDOWS (4098537e5c4995bfad406a2795a2c223)
+		driver.get("http://google.com");// 2.launch URL
+		ChromeDriver: chrome on WINDOWS (4098537e5c4995bfad406a2795a2c223)
+		String title = driver.getTitle();// 3.get the title of the page
+		ChromeDriver: chrome on WINDOWS (4098537e5c4995bfad406a2795a2c223)
+		System.out.println(title);
+	
+		driver.close();
+		ChromeDriver: chrome on WINDOWS (4098537e5c4995bfad406a2795a2c223)
+		System.out.println(driver.getTitle());
+		ChromeDriver: chrome on WINDOWS (4098537e5c4995bfad406a2795a2c223)
+		 org.openqa.selenium.NoSuchSessionException: invalid session id
+     		                       
